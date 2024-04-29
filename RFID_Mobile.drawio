@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T01:46:42.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="b7Vm-mgq0_bT3TNo1xAS" version="24.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-29T01:47:01.083Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YWbY_aY5WZC-CNcGmD_W" version="24.2.5" type="github" pages="3">
   <diagram name="고정형" id="--vtI4QlD3iQZnON2GcI">
     <mxGraphModel dx="984" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1019" pageHeight="1320" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p_xVUOrbrtQjltrd1UVE-2" value="실사 목록 조회" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;width=80;height=20;" parent="1" vertex="1">
+        <mxCell id="p_xVUOrbrtQjltrd1UVE-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;실사 목록 조회&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;width=80;height=20;" parent="1" vertex="1">
           <mxGeometry x="81" y="359" width="1000" height="160" as="geometry" />
         </mxCell>
         <mxCell id="p_xVUOrbrtQjltrd1UVE-3" value="2: &#39;확인&#39; 버튼" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;align=center;" parent="1" edge="1">
@@ -222,7 +222,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dZNajv5C_46ng1oyPFFv-6" value="자산 상세 조회" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;width=80;height=20;" parent="1" vertex="1">
+        <mxCell id="dZNajv5C_46ng1oyPFFv-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;자산 상세 조회&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;width=80;height=20;" parent="1" vertex="1">
           <mxGeometry x="81" y="770" width="1000" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dZNajv5C_46ng1oyPFFv-7" value="4: serial number or asset tag" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;align=center;" parent="1" edge="1">

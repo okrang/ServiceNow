@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T06:32:19.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TaNsghAYJ2warVF_1CZK" version="24.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-29T06:37:05.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="brv-ktN3C_HY6k6iShnI" version="24.4.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="catalog item 생성 및 request">
     <mxGraphModel dx="989" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -611,9 +611,6 @@
             <mxPoint x="364.62" y="1421" as="sourcePoint" />
             <mxPoint x="364.6200000000001" y="1461" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="8mBX4lm_qIC4PDOTx6-L-65" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Add User to Static Group&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Action trigger&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1861" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8mBX4lm_qIC4PDOTx6-L-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8mBX4lm_qIC4PDOTx6-L-66">
           <mxGeometry relative="1" as="geometry">

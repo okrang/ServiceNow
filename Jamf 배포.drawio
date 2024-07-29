@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T02:08:37.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="61MQRzIjr9httdTpoNBz" version="24.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-29T05:34:44.435Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SVm3AI4CYMe2IwSED8Gq" version="24.4.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="catalog item 생성 및 request">
     <mxGraphModel dx="989" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,106 +137,217 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OCTwwx5z_InanXCzjSp4" name="request 이후 프로세스">
-    <mxGraphModel dx="652" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-1" value="Request 이후 배포 전 프로세스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="160" height="30" as="geometry" />
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Request 이후 배포 스케줄링&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="20" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-3">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190.0000000000001" y="230.0000000000001" as="targetPoint" />
+            <mxPoint x="290.0000000000001" y="150.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Order Client Software flow trigger&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="140" width="150" height="50" as="geometry" />
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Order Client Software flow trigger&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="60" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_cat_item_fulfilment_config에서 신청한 catalog item과 동일한 sys_id값을 가진 레코드 query&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="230" width="150" height="50" as="geometry" />
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_cat_item_fulfilment_config에서 신청한 catalog item과 동일한 sys_id값을 가진 레코드 query&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="150" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="280" as="sourcePoint" />
-            <mxPoint x="190.0000000000001" y="320.0000000000001" as="targetPoint" />
+            <mxPoint x="290" y="200" as="sourcePoint" />
+            <mxPoint x="290.0000000000001" y="240.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-12">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="298" y="550" as="sourcePoint" />
-            <mxPoint x="288" y="540" as="targetPoint" />
+            <mxPoint x="398" y="470" as="sourcePoint" />
+            <mxPoint x="388" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-9" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUG6EaKXaCGJ5-WCwV-9-8">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-9" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="OUG6EaKXaCGJ5-WCwV-9-8">
           <mxGeometry x="-0.261" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-12">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="OUG6EaKXaCGJ5-WCwV-9-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="532.5" y="440" as="sourcePoint" />
-            <mxPoint x="190" y="630" as="targetPoint" />
+            <mxPoint x="632.5" y="360" as="sourcePoint" />
+            <mxPoint x="290" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-11" value="YES(Approved or Approval가 없을 때)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUG6EaKXaCGJ5-WCwV-9-10">
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-11" value="YES(Approved or Approval가 없을 때)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="OUG6EaKXaCGJ5-WCwV-9-10">
           <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ask for Approval&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="500" width="80" height="80" as="geometry" />
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ask for Approval&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-14" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Requested Item의 상태를&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Closed Incomplete으로 변경&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="288" y="515" width="150" height="50" as="geometry" />
+        <mxCell id="OUG6EaKXaCGJ5-WCwV-9-14" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Requested Item의 상태를&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Closed Incomplete으로 변경&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="388" y="435" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Requested Item에서&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;user, device, use_sam_licensing, lease_start, lease_end 확인&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="320" width="150" height="50" as="geometry" />
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Requested Item에서&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;user, device, use_sam_licensing, lease_start, lease_end 확인&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="240" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_cat_item_fulfilment_config 레코드의 Provider&amp;gt;Configuration flow trigger&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="410" width="150" height="50" as="geometry" />
+        <mxCell id="YzpXT2EACf0up7duKtZL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdMRSLXP6KgXtLWB5cIw-4" target="OUG6EaKXaCGJ5-WCwV-9-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_cat_item_fulfilment_config 레코드의 Provider&amp;gt;Configuration flow trigger&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="330" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-7" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="189.75" y="370" as="sourcePoint" />
-            <mxPoint x="189.7500000000001" y="410.0000000000001" as="targetPoint" />
+            <mxPoint x="289.75" y="290" as="sourcePoint" />
+            <mxPoint x="289.7500000000001" y="330.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-11" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-11" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="189.75" y="460" as="sourcePoint" />
-            <mxPoint x="189.7500000000001" y="500.0000000000001" as="targetPoint" />
+            <mxPoint x="289.75" y="380" as="sourcePoint" />
+            <mxPoint x="289.7500000000001" y="420.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="rdMRSLXP6KgXtLWB5cIw-17" parent="1">
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" source="rdMRSLXP6KgXtLWB5cIw-17" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="298" y="680" as="sourcePoint" />
-            <mxPoint x="288" y="670" as="targetPoint" />
+            <mxPoint x="632.5" y="490" as="sourcePoint" />
+            <mxPoint x="290" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-14" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rdMRSLXP6KgXtLWB5cIw-13">
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-16" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="rdMRSLXP6KgXtLWB5cIw-15">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rdMRSLXP6KgXtLWB5cIw-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;License Compliance&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;필요 여부&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" source="YzpXT2EACf0up7duKtZL-10" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="730" as="sourcePoint" />
+            <mxPoint x="388" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-7" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="YzpXT2EACf0up7duKtZL-6">
           <mxGeometry x="-0.261" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="rdMRSLXP6KgXtLWB5cIw-17" parent="1">
+        <mxCell id="YzpXT2EACf0up7duKtZL-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" source="YzpXT2EACf0up7duKtZL-10" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="532.5" y="570" as="sourcePoint" />
-            <mxPoint x="190" y="760" as="targetPoint" />
+            <mxPoint x="632.5" y="620" as="sourcePoint" />
+            <mxPoint x="290" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-16" value="YES(Available or License compliance가 없을 때)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rdMRSLXP6KgXtLWB5cIw-15">
+        <mxCell id="YzpXT2EACf0up7duKtZL-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="YzpXT2EACf0up7duKtZL-8">
           <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;License&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Compliance&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;-License validation&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="630" width="80" height="80" as="geometry" />
+        <mxCell id="YzpXT2EACf0up7duKtZL-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;License Validation&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-18" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Requested Item의 상태를&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Closed Incomplete으로 변경&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="288" y="645" width="150" height="50" as="geometry" />
+        <mxCell id="YzpXT2EACf0up7duKtZL-13" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_cat_item_fulfilment_config의 check license compliance&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="550" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdMRSLXP6KgXtLWB5cIw-19" value="배포 프로세스" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="100" width="160" height="30" as="geometry" />
+        <mxCell id="YzpXT2EACf0up7duKtZL-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.02;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="rdMRSLXP6KgXtLWB5cIw-17" target="YzpXT2EACf0up7duKtZL-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="sourcePoint" />
+            <mxPoint x="540" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="590" />
+              <mxPoint x="660" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-15" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="YzpXT2EACf0up7duKtZL-14">
+          <mxGeometry x="-0.853" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Client Software Distribution Lease Schedule&lt;br&gt;(sn_csd_lease_schedule)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;레코드 생성&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="810" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-18" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Catalog Task 생성&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="388" y="700" width="82" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-19" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;License Validation&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-20" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="YzpXT2EACf0up7duKtZL-18" target="YzpXT2EACf0up7duKtZL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.0000000000001" y="760.0000000000001" as="targetPoint" />
+            <mxPoint x="500" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="YzpXT2EACf0up7duKtZL-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="719.77" as="sourcePoint" />
+            <mxPoint x="638" y="719.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-23" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="YzpXT2EACf0up7duKtZL-22">
+          <mxGeometry x="-0.261" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.029;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="YzpXT2EACf0up7duKtZL-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.77" y="760" as="sourcePoint" />
+            <mxPoint x="539.77" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-26" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="YzpXT2EACf0up7duKtZL-24">
+          <mxGeometry x="-0.739" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Requested Item&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;closed complete으로&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;상태 변경&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="700" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-28" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Client Software Distribution Lease Execution&lt;br&gt;(sn_csd_lease_execution)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;레코드 생성&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="900" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-31" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.57" y="860" as="sourcePoint" />
+            <mxPoint x="289.5700000000001" y="900.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-32" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;sn_csd_lease_manager&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;레코드 생성&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="990" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-33" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.77" y="950" as="sourcePoint" />
+            <mxPoint x="289.7700000000001" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-35" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;해당 레코드의 schedule entry 시간이 되었을 때 deploy proces&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="800" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;cmn_schedule_span&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;레코드 생성&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1080" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-45" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;execution과 schedule, 그리고 Requested Item을 하나의 레코드로 엮음&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="980" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-46" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;software distribution lease가 execution되는 상태값 저장하는 레코드&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-47" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Schedule Entry&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;언제 deploy가 시작되는지 명시&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;cn_csd_lease_schedule 레코드와 매핑&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1070" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YzpXT2EACf0up7duKtZL-49" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.57" y="1040" as="sourcePoint" />
+            <mxPoint x="289.5700000000001" y="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
